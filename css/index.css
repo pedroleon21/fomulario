@@ -1,0 +1,26 @@
+.formulario {
+    width: 500px;
+    border: 0;
+    margin: 1px;
+}
+
+formulario #input {
+    width: 100%;
+}
+
+.checkbox-round { /* haha esse é ctrl+c/v */
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: #1e3cc8;
+}
