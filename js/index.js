@@ -15,6 +15,7 @@ let limparCheckBoxes = (id) => {
 elBtnLimpar.addEventListener('click', () => {
     let listaIds = [
         "nome",
+        "endereco",
         "rg",
         "cpf",
         "data"
